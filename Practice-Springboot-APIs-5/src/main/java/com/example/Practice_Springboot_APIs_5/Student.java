@@ -7,15 +7,16 @@ public class Student {
 
 
 
-    public Student(int studentID, String studentName, String grade) {
-        StudentId = studentID;
+    public Student(int studentId, String studentName, String grade) {
+
+        StudentId = studentId;
         StudentName = studentName;
         Grade = grade;
     }
 
 
 
-    public int getStudentID() {
+    public int getStudentId() {
         return StudentId;
     }
 
