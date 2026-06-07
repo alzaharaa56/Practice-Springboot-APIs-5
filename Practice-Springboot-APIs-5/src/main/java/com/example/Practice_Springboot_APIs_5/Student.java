@@ -1,41 +1,41 @@
 package com.example.Practice_Springboot_APIs_5;
 
 public class Student {
-    private int StudentId;
-    private String StudentName;
-    private String Grade;
+    private int studentId;
+    private String studentName;
+    private String grade;
 
 
 
     public Student(int studentId, String studentName, String grade) {
 
-        StudentId = studentId;
-        StudentName = studentName;
-        Grade = grade;
+      this.studentId = studentId;
+        this.studentName = studentName;
+       this.grade = grade;
     }
 
 
 
     public int getStudentId() {
-        return StudentId;
+        return studentId;
     }
 
     public String getStudentName() {
-        return StudentName;
+        return studentName;
     }
 
     public String getGrade() {
-        return Grade;
+        return grade;
     }
 
 
 
     public void setStudentName(String studentName) {
-        StudentName = studentName;
+      this.studentName = studentName;
     }
 
     public void setGrade(String grade) {
-        Grade = grade;
+       this.grade = grade;
     }
 }
 
